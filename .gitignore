@@ -30,3 +30,4 @@ dist/
 _pre_*/
 *.log
 .DS_Store
+source_assets/
