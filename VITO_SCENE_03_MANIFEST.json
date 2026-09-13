@@ -1,0 +1,112 @@
+{
+  "name": "Operation: Perfect Date — Scene 03 · Vito Wood Fired Pizza",
+  "version": "VITO_SCENE_03_LOCKED_V1",
+  "status": "LOCKED_APPROVED_CHECKPOINT",
+  "environment": "/assets/locations/Vito_Wood_Fired_Pizza.glb",
+  "actors": {
+    "Nick": {
+      "position": [
+        0.55,
+        0,
+        6.2699
+      ],
+      "rotation": [
+        0,
+        -0.4189,
+        0
+      ],
+      "scaling": [
+        2.5,
+        2.5,
+        2.5
+      ],
+      "default_clip": "Idle"
+    },
+    "Judy": {
+      "position": [
+        -0.3416,
+        0,
+        6.3141
+      ],
+      "rotation": [
+        0,
+        0.4189,
+        0
+      ],
+      "scaling": [
+        1,
+        1,
+        1
+      ],
+      "default_clip": "Idle"
+    }
+  },
+  "camera": {
+    "alpha": 1.562,
+    "beta": 1.5086,
+    "radius": 9.1572,
+    "target": [
+      0,
+      1.05,
+      2.2
+    ],
+    "fov": 0.72
+  },
+  "dialogue": [
+    [
+      "Nick Wilde",
+      "Dessert first, pizza second. Now that is proper birthday planning."
+    ],
+    [
+      "Judy Hopps",
+      "You do realize most people do that the other way around?"
+    ],
+    [
+      "Nick Wilde",
+      "Most people lack vision, Carrots."
+    ],
+    [
+      "Judy Hopps",
+      "Right. And I suppose this wood-fired pizza is part of the ‘mission’ too?"
+    ],
+    [
+      "Nick Wilde",
+      "Obviously. Very serious operation."
+    ],
+    [
+      "Judy Hopps",
+      "And after this?"
+    ],
+    [
+      "Nick Wilde",
+      "One more stop."
+    ],
+    [
+      "Judy Hopps",
+      "You really planned the whole day, didn’t you?"
+    ],
+    [
+      "Nick Wilde",
+      "Maybe."
+    ]
+  ],
+  "ending_transition": {
+    "small": "ONE MORE STOP",
+    "big": "SCOPE CINEMAS",
+    "sub": "Colombo City Centre"
+  },
+  "controls": {
+    "advance": [
+      "Tap",
+      "Click",
+      "Space",
+      "Enter"
+    ],
+    "pause": [
+      "Pause button",
+      "Escape"
+    ],
+    "editor_debug": "?editor=1",
+    "editor_toggle": "F2"
+  }
+}

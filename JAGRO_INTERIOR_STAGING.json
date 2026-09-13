@@ -1,0 +1,58 @@
+{
+  "scene": "Simply Strawberries by Jagro \u2014 interior",
+  "status": "first-pass locked staging",
+  "environment": "JAGRO",
+  "actors": {
+    "Nick": {
+      "position": [
+        -0.2692,
+        -0.0359,
+        -20.0479
+      ],
+      "rotation": [
+        0,
+        -0.2269,
+        0
+      ],
+      "scaling": [
+        2.5,
+        2.5,
+        2.5
+      ]
+    },
+    "Judy": {
+      "position": [
+        0.4562,
+        0,
+        -19.8554
+      ],
+      "rotation": [
+        0,
+        -0.4363,
+        0
+      ],
+      "scaling": [
+        1,
+        1,
+        1
+      ]
+    }
+  },
+  "camera": {
+    "alpha": 1.5708,
+    "beta": 1.455,
+    "radius": 6.35,
+    "target": [
+      0.0935,
+      1.12,
+      -19.9517
+    ],
+    "fov": 0.72,
+    "intent": "opposite end, actor-focused, Jagro interior behind actors"
+  },
+  "notes": [
+    "Ignore storefront/entrance in this scene.",
+    "Camera sits on +Z side of actors and looks toward -Z.",
+    "F2 toggles the editor when using ?editor=1."
+  ]
+}

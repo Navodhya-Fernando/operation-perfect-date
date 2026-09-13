@@ -1,0 +1,114 @@
+{
+  "name": "Operation: Perfect Date \u2014 NIC Scene",
+  "version": "NIC_LOCKED_V1",
+  "status": "LOCKED_APPROVED_CHECKPOINT",
+  "scene": {
+    "location": "National Innovation Centre / NIBM",
+    "environment_asset": "/assets/locations/NIC_Lobby.glb",
+    "camera": {
+      "alpha": 1.5708,
+      "beta": 1.4689,
+      "radius": 4.423,
+      "target": [
+        -1.6432,
+        1.05,
+        4.6491
+      ],
+      "fov": 0.72
+    },
+    "actors": {
+      "Nick": {
+        "position": [
+          -2.17,
+          0,
+          4.836
+        ],
+        "rotation": [
+          0,
+          0.3491,
+          0
+        ],
+        "scaling": [
+          2.5,
+          2.5,
+          2.5
+        ],
+        "default_clip": "Idle"
+      },
+      "Judy": {
+        "position": [
+          -1.177,
+          0,
+          4.847
+        ],
+        "rotation": [
+          0,
+          -0.4363,
+          0
+        ],
+        "scaling": [
+          1,
+          1,
+          1
+        ],
+        "default_clip": "Idle"
+      }
+    }
+  },
+  "script": [
+    {
+      "speaker": "Nick Wilde",
+      "clip": "Talking",
+      "line": "Agent Nishu... birthday mission officially starts here."
+    },
+    {
+      "speaker": "Judy Hopps",
+      "clip": "Questioning",
+      "line": "A mission? At NIC?"
+    },
+    {
+      "speaker": "Nick Wilde",
+      "clip": "Pointing",
+      "line": "First checkpoint: Strawberries by Jagro."
+    },
+    {
+      "speaker": "Judy Hopps",
+      "clip": "Talking",
+      "line": "Okay, partner. Lead the way."
+    },
+    {
+      "event": "MISSION ACCEPTED \u2713"
+    },
+    {
+      "event": "Nick and Judy walk toward exit"
+    },
+    {
+      "event": "Transition to Jagro"
+    }
+  ],
+  "player_controls": {
+    "start": "Start Mission",
+    "advance_dialogue": [
+      "Tap",
+      "Left click",
+      "Space",
+      "Enter"
+    ],
+    "pause": [
+      "Pause button",
+      "Escape"
+    ],
+    "resume": "Resume",
+    "restart": "Restart Scene"
+  },
+  "debug_editor": {
+    "query": "?editor=1",
+    "note": "Hidden from normal player view."
+  },
+  "notes": [
+    "No kiss scene occurs at NIC.",
+    "Future kiss coordinates are not part of this locked NIC scene.",
+    "Nick clip switching is anchored to Idle so his placement root does not jump.",
+    "Player build does not expose transform gizmos."
+  ]
+}

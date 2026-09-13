@@ -1,0 +1,21 @@
+{
+  "scene": "03 \u00b7 Vito Wood Fired Pizza",
+  "status": "STAGING / NOT LOCKED",
+  "environment_asset": "/assets/locations/Vito_Wood_Fired_Pizza.glb",
+  "staging_strategy": "Use exported game-engine markers from the Vito GLB",
+  "markers": [
+    "SPAWN_NICK",
+    "SPAWN_JUDY",
+    "INTERACTION_POINT",
+    "CAMERA_ESTABLISH",
+    "EXIT_TO_CCC",
+    "VITO_SIGN_TARGET",
+    "PIZZA_KITCHEN_TARGET"
+  ],
+  "notes": [
+    "No Scene 03 dialogue is locked yet.",
+    "Use ?editor=1 to stage Vito visually.",
+    "F2 toggles editor.",
+    "Once framing is approved, copy config and lock exact actor/camera values."
+  ]
+}

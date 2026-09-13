@@ -1,0 +1,119 @@
+* { box-sizing: border-box; }
+
+html, body, #renderCanvas {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+body {
+  font-family: Inter, system-ui, sans-serif;
+  background: #0b0f16;
+  color: #fff;
+}
+
+#renderCanvas {
+  display: block;
+  outline: none;
+}
+
+#panel {
+  position: fixed;
+  top: 14px;
+  right: 14px;
+  z-index: 10;
+  width: min(380px, calc(100vw - 28px));
+  max-height: calc(100vh - 28px);
+  overflow: auto;
+  padding: 16px;
+  border: 1px solid rgba(255,255,255,.12);
+  border-radius: 14px;
+  background: rgba(12,16,24,.92);
+  backdrop-filter: blur(16px);
+}
+
+h1 {
+  margin: 0;
+  font-size: 18px;
+}
+
+h2 {
+  margin: 18px 0 8px;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: .12em;
+  opacity: .65;
+}
+
+#status {
+  margin: 5px 0 14px;
+  font-size: 11px;
+  opacity: .7;
+}
+
+.field {
+  display: grid;
+  gap: 6px;
+}
+
+.field span {
+  font-size: 11px;
+  opacity: .65;
+}
+
+select, input, button {
+  border: 1px solid rgba(255,255,255,.12);
+  border-radius: 8px;
+  background: rgba(34,41,55,.85);
+  color: #fff;
+  padding: 8px;
+}
+
+select {
+  width: 100%;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 7px;
+  margin-top: 9px;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:hover {
+  background: rgba(55,66,88,.95);
+}
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 7px;
+  margin-top: 7px;
+}
+
+.row label {
+  display: grid;
+  gap: 4px;
+  font-size: 10px;
+  opacity: .8;
+}
+
+.row input {
+  width: 100%;
+  min-width: 0;
+}
+
+pre {
+  margin: 0;
+  padding: 10px;
+  border-radius: 8px;
+  background: rgba(0,0,0,.28);
+  font: 10px/1.5 ui-monospace, monospace;
+  white-space: pre-wrap;
+  word-break: break-word;
+}

@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, maximum-scale=1.0, user-scalable=no" />
+  <meta name="theme-color" content="#080b11" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="Perfect Date" />
+  <title>Operation: Perfect Date</title>
+</head>
+
+<body>
+  <canvas id="renderCanvas"></canvas>
+
+  <div id="rotateDevice" aria-live="polite" aria-label="Rotate device">
+    <div class="rotateDeviceCard">
+      <div class="rotateDeviceIcon" aria-hidden="true">↻</div>
+      <div class="rotateDeviceTitle">Rotate your phone</div>
+      <div class="rotateDeviceCopy">Operation: Perfect Date is designed for landscape.</div>
+    </div>
+  </div>
+
+  <div id="cinemaBars" aria-hidden="true">
+    <div class="bar top"></div>
+    <div class="bar bottom"></div>
+  </div>
+
+  <div id="missionHeader">
+    <div class="missionKicker">OPERATION</div>
+    <div class="missionTitle">PERFECT DATE</div>
+    <div id="missionLocation" class="missionLocation">01 · NATIONAL INNOVATION CENTRE</div>
+  </div>
+
+  <div id="missionProgress" class="hidden" aria-label="Mission progress">
+    <span class="progressStop" data-progress-stop="NIC"><b>01</b> NIC</span>
+    <span class="progressLine"></span>
+    <span class="progressStop" data-progress-stop="JAGRO"><b>02</b> JAGRO</span>
+    <span class="progressLine"></span>
+    <span class="progressStop" data-progress-stop="VITO"><b>03</b> VITO</span>
+    <span class="progressLine"></span>
+    <span class="progressStop" data-progress-stop="CCC"><b>04</b> CCC</span>
+  </div>
+
+  <div id="dialogueBox" class="hidden">
+    <div id="speaker"></div>
+    <div id="dialogueText"></div>
+  </div>
+
+  <div id="missionCard" class="hidden">
+    <div class="check">✓</div>
+    <div>
+      <div class="missionCardTitle">MISSION ACCEPTED</div>
+      <div class="missionCardSub">Next checkpoint unlocked</div>
+    </div>
+  </div>
+
+  <div id="transitionCard" class="hidden">
+    <div class="transitionSmall">NEXT CHECKPOINT</div>
+    <div class="transitionBig">SIMPLY STRAWBERRIES</div>
+    <div class="transitionSub">by Jagro · Polhengoda</div>
+  </div>
+
+  <div id="playerControls">
+    <button
+      id="fullscreenButton"
+      class="fullscreenButton"
+      type="button"
+      aria-label="Enter full screen"
+      title="Full screen"
+    >
+      <span class="fullscreenIcon" aria-hidden="true">⛶</span>
+      <span class="fullscreenLabel">Full Screen</span>
+    </button>
+
+    <button id="pauseButton" class="iconButton" aria-label="Pause game">Ⅱ</button>
+  </div>
+
+  <div id="miniGameOverlay" class="hidden" role="dialog" aria-modal="true" aria-labelledby="miniGameTitle">
+    <div class="miniGamePanel">
+      <div id="miniGameKicker" class="miniGameKicker">FIELD TASK</div>
+      <div id="miniGameTitle" class="miniGameTitle">Interactive task</div>
+      <div id="miniGameSubtitle" class="miniGameSubtitle"></div>
+      <div id="miniGameBody" class="miniGameBody"></div>
+      <div id="miniGameFeedback" class="miniGameFeedback" aria-live="polite"></div>
+    </div>
+  </div>
+
+
+
+  <div id="fullscreenGuide" class="hidden" role="dialog" aria-modal="true" aria-labelledby="fullscreenGuideTitle">
+    <div class="fullscreenGuideCard">
+      <div class="fullscreenGuideIcon" aria-hidden="true">⛶</div>
+      <div id="fullscreenGuideTitle" class="fullscreenGuideTitle">Play it like a mobile game</div>
+      <div id="fullscreenGuideText" class="fullscreenGuideText">
+        Use Full Screen for the cleanest 16:9 experience.
+      </div>
+      <button id="closeFullscreenGuide" class="startButton" type="button">Got it</button>
+    </div>
+  </div>
+
+  <div id="startScreen">
+    <div class="startPanel">
+      <div class="eyebrow">OPERATION</div>
+      <div class="startTitle">PERFECT DATE</div>
+      <div class="startLocation">A FOUR-STOP BIRTHDAY MISSION</div>
+      <div class="startCopy">You Already Know the Plan 😉</div>
+
+      <button id="startMission" class="startButton">Start Operation</button>
+
+      <button
+        id="startFullscreenButton"
+        class="startFullscreenButton"
+        type="button"
+        aria-label="Open full screen"
+      >
+        <span aria-hidden="true">⛶</span>
+        <span>Full Screen</span>
+      </button>
+
+      <div class="controlsHint">
+        <span>Tap / Click</span>
+        <span>Space / Enter</span>
+        <span>Esc to pause</span>
+      </div>
+    </div>
+  </div>
+
+  <div id="continueHint" class="hidden">
+    <span class="pulseDot"></span>
+    <span>Tap to continue</span>
+  </div>
+
+  <div id="pauseMenu" class="hidden">
+    <div class="pausePanel">
+      <div class="eyebrow">GAME PAUSED</div>
+      <div class="pauseTitle">Operation: Perfect Date</div>
+
+      <button id="resumeGame" class="startButton">Resume</button>
+      <button id="restartGame">Restart Game</button>
+    </div>
+  </div>
+
+
+  <div id="birthdayFinale" class="hidden">
+    <div class="birthdayCard">
+      <div class="birthdayEyebrow">MISSION COMPLETE ✓</div>
+      <h1>To my Judy…</h1>
+
+      <div class="birthdayMessage">
+        <p>You have genuinely been the best thing to happen to me this year.</p>
+
+        <p>I hope this little day — from the strawberries, to the pizza, to the movie, and everything in between — gives you even a tiny piece of the happiness you’ve given me.</p>
+
+        <p>There are still a lot more places to go, ridiculous missions to complete, and birthdays ahead of us.</p>
+
+        <p>And I hope I get to be your Nick for all of them.</p>
+
+        <p class="happyBirthday">Happy Birthday, Chuti Madamm ❤️</p>
+
+        <p class="signature">Your Nick/Your baby Donkey<br>— Navii ❤️</p>
+      </div>
+
+      <div class="birthdayFooter">
+        <div>OPERATION: PERFECT DATE</div>
+        <div>MISSION COMPLETE ✓</div>
+      </div>
+
+      <button id="replayFinale" class="startButton">Replay From Start</button>
+    </div>
+  </div>
+
+  <aside id="editorPanel" class="hiddenPanel">
+    <div class="panelHeader">
+      <div>
+        <div class="panelTitle">Operation: Perfect Date · Debug Editor</div>
+        <div id="selectedLabel">Nothing selected</div>
+      </div>
+      <button id="closeEditor">Close</button>
+    </div>
+
+    <div id="editorBody">
+      <section>
+        <div class="sectionTitle">Nick</div>
+        <div class="buttonGrid two">
+          <button data-animation-actor="Nick" data-animation-clip="Idle">Idle</button>
+          <button data-animation-actor="Nick" data-animation-clip="Talking">Talking</button>
+          <button data-animation-actor="Nick" data-animation-clip="Pointing">Pointing</button>
+          <button data-animation-actor="Nick" data-animation-clip="Walking">Walking</button>
+          <button data-animation-actor="Nick" data-animation-clip="Run Look Back">Run Look Back</button>
+          <button data-animation-actor="Nick" data-animation-clip="Kiss">Kiss</button>
+        </div>
+
+        <div class="sectionTitle secondTitle">Judy</div>
+        <div class="buttonGrid two">
+          <button data-animation-actor="Judy" data-animation-clip="Idle">Idle</button>
+          <button data-animation-actor="Judy" data-animation-clip="Talking">Talking</button>
+          <button data-animation-actor="Judy" data-animation-clip="Questioning">Questioning</button>
+          <button data-animation-actor="Judy" data-animation-clip="Walking">Walking</button>
+          <button data-animation-actor="Judy" data-animation-clip="Run">Run</button>
+          <button data-animation-actor="Judy" data-animation-clip="Kiss">Kiss</button>
+        </div>
+
+        <div id="animationReadout" class="readout"></div>
+      </section>
+
+      <section>
+        <div class="sectionTitle">Select actor</div>
+        <div class="buttonGrid three">
+          <button data-select="Nick">Nick</button>
+          <button data-select="Judy">Judy</button>
+          <button id="clearSelection">Clear</button>
+        </div>
+      </section>
+
+      <section>
+        <div class="sectionTitle">Transform</div>
+
+        <div class="buttonGrid three">
+          <button id="toolMove" class="active">Move</button>
+          <button id="toolRotate">Rotate</button>
+          <button id="toolScale">Scale</button>
+        </div>
+
+        <div class="transformRow">
+          <span>Position</span>
+          <label>X <input id="posX" type="number" step="0.01"></label>
+          <label>Y <input id="posY" type="number" step="0.01"></label>
+          <label>Z <input id="posZ" type="number" step="0.01"></label>
+        </div>
+
+        <div class="transformRow">
+          <span>Rotation °</span>
+          <label>X <input id="rotX" type="number" step="1"></label>
+          <label>Y <input id="rotY" type="number" step="1"></label>
+          <label>Z <input id="rotZ" type="number" step="1"></label>
+        </div>
+
+        <div class="transformRow">
+          <span>Scale</span>
+          <label>X <input id="scaleX" type="number" step="0.05"></label>
+          <label>Y <input id="scaleY" type="number" step="0.05"></label>
+          <label>Z <input id="scaleZ" type="number" step="0.05"></label>
+        </div>
+      </section>
+
+      <section>
+        <div class="sectionTitle">Presets</div>
+        <div class="buttonGrid two">
+          <button id="idlePreset">NIC staging</button>
+          <button id="jagroPreset">Jagro interior staging</button>
+          <button id="showNICDebug">Show NIC</button>
+          <button id="showJagroDebug">Show Jagro</button>
+          <button id="showVitoDebug">Show Vito</button>
+          <button id="vitoPreset">Vito locked staging</button>
+          <button id="showCCCDebug">Show CCC</button>
+          <button id="cccPreset">CCC locked staging</button>
+          <button id="savedCamera">NIC camera</button>
+          <button id="actorsCamera">Actor camera</button>
+          <button id="vitoCamera">Vito locked camera</button>
+          <button id="cccCamera">CCC locked camera</button>
+        </div>
+      </section>
+
+      <section>
+        <div class="sectionTitle">Scene config</div>
+        <div class="buttonGrid two">
+          <button id="copyConfig">Copy config</button>
+          <button id="showAll">Show all meshes</button>
+        </div>
+        <textarea id="configOutput" readonly></textarea>
+      </section>
+
+      <section>
+        <div class="sectionTitle">Debug</div>
+        <div id="debugReadout" class="readout"></div>
+      </section>
+    </div>
+  </aside>
+
+  <div id="loading">
+    <div class="loader"></div>
+    <div id="loadingText">Loading NIC…</div>
+  </div>
+
+  <div id="toast"></div>
+
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>

@@ -1,0 +1,131 @@
+{
+  "scene": "Scene 04 · Scope Cinemas at CCC · Finale",
+  "status": "LOCKED / APPROVED",
+  "environment": "CCC",
+  "environment_asset": "/assets/locations/CCC_Scope_Cinema.glb",
+  "movie": "PAW Patrol: The Dino Movie",
+  "actors": {
+    "Nick": {
+      "position": [
+        0.4997,
+        0,
+        5.6
+      ],
+      "rotation": [
+        0,
+        -0.4189,
+        0
+      ],
+      "scaling": [
+        2.5,
+        2.5,
+        2.5
+      ]
+    },
+    "Judy": {
+      "position": [
+        -0.1811,
+        0,
+        5.6
+      ],
+      "rotation": [
+        0,
+        0.4189,
+        0
+      ],
+      "scaling": [
+        1,
+        1,
+        1
+      ]
+    }
+  },
+  "camera": {
+    "alpha": 1.4231,
+    "beta": 1.5006,
+    "radius": 6.8801,
+    "target": [
+      -0.594,
+      1.185,
+      3.62
+    ],
+    "fov": 0.72
+  },
+  "dialogue": [
+    [
+      "Judy",
+      "So… this is the mysterious ‘one more stop’?"
+    ],
+    [
+      "Nick",
+      "I prefer ‘carefully planned grand finale.’"
+    ],
+    [
+      "Judy",
+      "Scope Cinemas. Okay… what are we watching?"
+    ],
+    [
+      "Nick",
+      "Right there."
+    ],
+    [
+      "Judy",
+      "PAW Patrol: The Dino Movie?"
+    ],
+    [
+      "Nick",
+      "Dinosaurs, puppies, air-conditioning. I’m not seeing a downside."
+    ],
+    [
+      "Judy",
+      "Cheesecake, pizza, and now a movie. You really did plan the whole thing."
+    ],
+    [
+      "Nick",
+      "I told you. Surprisingly competent."
+    ],
+    [
+      "Judy",
+      "Don’t get used to hearing me say that."
+    ],
+    [
+      "Nick",
+      "Too late."
+    ],
+    [
+      "Judy",
+      "So… mission over?"
+    ],
+    [
+      "Nick",
+      "For today."
+    ],
+    [
+      "Judy",
+      "That sounded suspicious."
+    ],
+    [
+      "Nick",
+      "Good."
+    ]
+  ],
+  "birthday_message": [
+    "To my Judy…",
+    "You have genuinely been the best thing to happen to me this year.",
+    "I hope this little day — from the strawberries, to the pizza, to the movie, and everything in between — gives you even a tiny piece of the happiness you’ve given me.",
+    "There are still a lot more places to go, ridiculous missions to complete, and birthdays ahead of us.",
+    "And I hope I get to be your Nick for all of them.",
+    "Happy Birthday, Nishu. ❤️",
+    "Your Nick. Your baby Donkey.",
+    "— Navii ❤️"
+  ],
+  "final_ui": [
+    "OPERATION: PERFECT DATE",
+    "MISSION COMPLETE ✓"
+  ],
+  "notes": [
+    "User-approved CCC camera replaces exported camera marker.",
+    "Birthday message is delivered by Navii's final card, not spoken by Nick/Judy.",
+    "No generic character-delivered Happy Birthday lines."
+  ]
+}

@@ -1,0 +1,228 @@
+{
+  "converter": "24_CONVERT_MIXAMO_SKIN_FBX_TO_GLB.py",
+  "policy": "Each clip keeps its own mesh + skeleton + animation. No retargeting.",
+  "clips": [
+    {
+      "character": "Nick",
+      "source": "/home/navodhya/zootopia_birthday/mixamo_animations/Nick/Nick_Idle_Skin.fbx",
+      "clip": "Nick_Idle",
+      "output": "/home/navodhya/zootopia_birthday/babylon_game/public/assets/animations/nick/Nick_Idle.glb",
+      "size_mb": 0.385,
+      "actions": [
+        "Nick_Idle"
+      ],
+      "frame_start": 1,
+      "frame_end": 299,
+      "status": "ok"
+    },
+    {
+      "character": "Nick",
+      "source": "/home/navodhya/zootopia_birthday/mixamo_animations/Nick/Nick_Kiss_Skin.fbx",
+      "clip": "Nick_Kiss",
+      "output": "/home/navodhya/zootopia_birthday/babylon_game/public/assets/animations/nick/Nick_Kiss.glb",
+      "size_mb": 0.991,
+      "actions": [
+        "Nick_Kiss_1",
+        "Nick_Kiss_2"
+      ],
+      "frame_start": 1,
+      "frame_end": 299,
+      "status": "ok"
+    },
+    {
+      "character": "Nick",
+      "source": "/home/navodhya/zootopia_birthday/mixamo_animations/Nick/Nick_Pointing_Skin.fbx",
+      "clip": "Nick_Pointing",
+      "output": "/home/navodhya/zootopia_birthday/babylon_game/public/assets/animations/nick/Nick_Pointing.glb",
+      "size_mb": 1.192,
+      "actions": [
+        "Nick_Pointing_1",
+        "Nick_Pointing_2",
+        "Nick_Pointing_3"
+      ],
+      "frame_start": 1,
+      "frame_end": 299,
+      "status": "ok"
+    },
+    {
+      "character": "Nick",
+      "source": "/home/navodhya/zootopia_birthday/mixamo_animations/Nick/Nick_Run_Look_Back_Skin.fbx",
+      "clip": "Nick_Run_Look_Back",
+      "output": "/home/navodhya/zootopia_birthday/babylon_game/public/assets/animations/nick/Nick_Run_Look_Back.glb",
+      "size_mb": 1.312,
+      "actions": [
+        "Nick_Run_Look_Back_1",
+        "Nick_Run_Look_Back_2",
+        "Nick_Run_Look_Back_3",
+        "Nick_Run_Look_Back_4"
+      ],
+      "frame_start": 1,
+      "frame_end": 299,
+      "status": "ok"
+    },
+    {
+      "character": "Nick",
+      "source": "/home/navodhya/zootopia_birthday/mixamo_animations/Nick/Nick_Talking_Skin.fbx",
+      "clip": "Nick_Talking",
+      "output": "/home/navodhya/zootopia_birthday/babylon_game/public/assets/animations/nick/Nick_Talking.glb",
+      "size_mb": 1.703,
+      "actions": [
+        "Nick_Talking_1",
+        "Nick_Talking_2",
+        "Nick_Talking_3",
+        "Nick_Talking_4",
+        "Nick_Talking_5"
+      ],
+      "frame_start": 1,
+      "frame_end": 309,
+      "status": "ok"
+    },
+    {
+      "character": "Nick",
+      "source": "/home/navodhya/zootopia_birthday/mixamo_animations/Nick/Nick_Walking_Skin.fbx",
+      "clip": "Nick_Walking",
+      "output": "/home/navodhya/zootopia_birthday/babylon_game/public/assets/animations/nick/Nick_Walking.glb",
+      "size_mb": 1.784,
+      "actions": [
+        "Nick_Walking_1",
+        "Nick_Walking_2",
+        "Nick_Walking_3",
+        "Nick_Walking_4",
+        "Nick_Walking_5",
+        "Nick_Walking_6"
+      ],
+      "frame_start": 1,
+      "frame_end": 309,
+      "status": "ok"
+    },
+    {
+      "character": "Judy",
+      "source": "/home/navodhya/zootopia_birthday/mixamo_animations/Judy/Judy_Idle_Skin.fbx",
+      "clip": "Judy_Idle",
+      "output": "/home/navodhya/zootopia_birthday/babylon_game/public/assets/animations/judy/Judy_Idle.glb",
+      "size_mb": 1.354,
+      "actions": [
+        "Judy_Idle_1",
+        "Judy_Idle_2",
+        "Judy_Idle_3",
+        "Judy_Idle_4",
+        "Judy_Idle_5",
+        "Judy_Idle_6",
+        "Judy_Idle_7"
+      ],
+      "frame_start": 1,
+      "frame_end": 309,
+      "status": "ok"
+    },
+    {
+      "character": "Judy",
+      "source": "/home/navodhya/zootopia_birthday/mixamo_animations/Judy/Judy_Kiss_Skin.fbx",
+      "clip": "Judy_Kiss",
+      "output": "/home/navodhya/zootopia_birthday/babylon_game/public/assets/animations/judy/Judy_Kiss.glb",
+      "size_mb": 1.441,
+      "actions": [
+        "Judy_Kiss_1",
+        "Judy_Kiss_2",
+        "Judy_Kiss_3",
+        "Judy_Kiss_4",
+        "Judy_Kiss_5",
+        "Judy_Kiss_6",
+        "Judy_Kiss_7",
+        "Judy_Kiss_8"
+      ],
+      "frame_start": 1,
+      "frame_end": 309,
+      "status": "ok"
+    },
+    {
+      "character": "Judy",
+      "source": "/home/navodhya/zootopia_birthday/mixamo_animations/Judy/Judy_Questioning_Skin.fbx",
+      "clip": "Judy_Questioning",
+      "output": "/home/navodhya/zootopia_birthday/babylon_game/public/assets/animations/judy/Judy_Questioning.glb",
+      "size_mb": 1.551,
+      "actions": [
+        "Judy_Questioning_1",
+        "Judy_Questioning_2",
+        "Judy_Questioning_3",
+        "Judy_Questioning_4",
+        "Judy_Questioning_5",
+        "Judy_Questioning_6",
+        "Judy_Questioning_7",
+        "Judy_Questioning_8",
+        "Judy_Questioning_9"
+      ],
+      "frame_start": 1,
+      "frame_end": 309,
+      "status": "ok"
+    },
+    {
+      "character": "Judy",
+      "source": "/home/navodhya/zootopia_birthday/mixamo_animations/Judy/Judy_Run_Skin.fbx",
+      "clip": "Judy_Run",
+      "output": "/home/navodhya/zootopia_birthday/babylon_game/public/assets/animations/judy/Judy_Run.glb",
+      "size_mb": 1.59,
+      "actions": [
+        "Judy_Run_1",
+        "Judy_Run_10",
+        "Judy_Run_2",
+        "Judy_Run_3",
+        "Judy_Run_4",
+        "Judy_Run_5",
+        "Judy_Run_6",
+        "Judy_Run_7",
+        "Judy_Run_8",
+        "Judy_Run_9"
+      ],
+      "frame_start": 1,
+      "frame_end": 309,
+      "status": "ok"
+    },
+    {
+      "character": "Judy",
+      "source": "/home/navodhya/zootopia_birthday/mixamo_animations/Judy/Judy_Talking_Skin.fbx",
+      "clip": "Judy_Talking",
+      "output": "/home/navodhya/zootopia_birthday/babylon_game/public/assets/animations/judy/Judy_Talking.glb",
+      "size_mb": 1.714,
+      "actions": [
+        "Judy_Talking_1",
+        "Judy_Talking_10",
+        "Judy_Talking_11",
+        "Judy_Talking_2",
+        "Judy_Talking_3",
+        "Judy_Talking_4",
+        "Judy_Talking_5",
+        "Judy_Talking_6",
+        "Judy_Talking_7",
+        "Judy_Talking_8",
+        "Judy_Talking_9"
+      ],
+      "frame_start": 1,
+      "frame_end": 309,
+      "status": "ok"
+    },
+    {
+      "character": "Judy",
+      "source": "/home/navodhya/zootopia_birthday/mixamo_animations/Judy/Judy_Walking_Skin.fbx",
+      "clip": "Judy_Walking",
+      "output": "/home/navodhya/zootopia_birthday/babylon_game/public/assets/animations/judy/Judy_Walking.glb",
+      "size_mb": 1.758,
+      "actions": [
+        "Judy_Walking_1",
+        "Judy_Walking_10",
+        "Judy_Walking_11",
+        "Judy_Walking_12",
+        "Judy_Walking_2",
+        "Judy_Walking_3",
+        "Judy_Walking_4",
+        "Judy_Walking_5",
+        "Judy_Walking_6",
+        "Judy_Walking_7",
+        "Judy_Walking_8",
+        "Judy_Walking_9"
+      ],
+      "frame_start": 1,
+      "frame_end": 309,
+      "status": "ok"
+    }
+  ]
+}

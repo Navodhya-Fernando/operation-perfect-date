@@ -1,0 +1,246 @@
+{
+  "converter": "Text",
+  "blender_version": "5.2.1 LTS",
+  "backup": "/home/navodhya/zootopia_birthday/babylon_game/public/assets/animations/_backup_before_clean_reconvert_20260912_213145",
+  "policy": "Each With-Skin FBX is imported into a clean Blender state and exported using ACTIVE_ACTIONS. No retargeting.",
+  "clips": [
+    {
+      "character": "Nick",
+      "clip": "Nick_Idle",
+      "source_fbx": "/home/navodhya/zootopia_birthday/mixamo_animations/Nick/Nick_Idle_Skin.fbx",
+      "status": "failed",
+      "error": "No mesh was imported from this With-Skin FBX."
+    },
+    {
+      "character": "Nick",
+      "clip": "Nick_Kiss",
+      "source_fbx": "/home/navodhya/zootopia_birthday/mixamo_animations/Nick/Nick_Kiss_Skin.fbx",
+      "output_glb": "/home/navodhya/zootopia_birthday/babylon_game/public/assets/animations/nick/Nick_Kiss.glb",
+      "status": "ok",
+      "size_mb": 0.611,
+      "active_action_owners": [
+        {
+          "owner": "NICK_RIG.002",
+          "owner_type": "ARMATURE",
+          "action": "Nick_Kiss"
+        }
+      ],
+      "animation_count": 1,
+      "animation_name": "Animation",
+      "channel_count": 219,
+      "sampler_count": 219,
+      "skin_count": 1,
+      "mesh_count": 1
+    },
+    {
+      "character": "Nick",
+      "clip": "Nick_Pointing",
+      "source_fbx": "/home/navodhya/zootopia_birthday/mixamo_animations/Nick/Nick_Pointing_Skin.fbx",
+      "output_glb": "/home/navodhya/zootopia_birthday/babylon_game/public/assets/animations/nick/Nick_Pointing.glb",
+      "status": "ok",
+      "size_mb": 0.641,
+      "active_action_owners": [
+        {
+          "owner": "NICK_RIG.002",
+          "owner_type": "ARMATURE",
+          "action": "Nick_Pointing"
+        }
+      ],
+      "animation_count": 1,
+      "animation_name": "Animation",
+      "channel_count": 219,
+      "sampler_count": 219,
+      "skin_count": 1,
+      "mesh_count": 1
+    },
+    {
+      "character": "Nick",
+      "clip": "Nick_Run_Look_Back",
+      "source_fbx": "/home/navodhya/zootopia_birthday/mixamo_animations/Nick/Nick_Run_Look_Back_Skin.fbx",
+      "output_glb": "/home/navodhya/zootopia_birthday/babylon_game/public/assets/animations/nick/Nick_Run_Look_Back.glb",
+      "status": "ok",
+      "size_mb": 0.559,
+      "active_action_owners": [
+        {
+          "owner": "NICK_RIG.002",
+          "owner_type": "ARMATURE",
+          "action": "Nick_Run_Look_Back"
+        }
+      ],
+      "animation_count": 1,
+      "animation_name": "Animation",
+      "channel_count": 219,
+      "sampler_count": 219,
+      "skin_count": 1,
+      "mesh_count": 1
+    },
+    {
+      "character": "Nick",
+      "clip": "Nick_Talking",
+      "source_fbx": "/home/navodhya/zootopia_birthday/mixamo_animations/Nick/Nick_Talking_Skin.fbx",
+      "output_glb": "/home/navodhya/zootopia_birthday/babylon_game/public/assets/animations/nick/Nick_Talking.glb",
+      "status": "ok",
+      "size_mb": 0.828,
+      "active_action_owners": [
+        {
+          "owner": "NICK_RIG.002",
+          "owner_type": "ARMATURE",
+          "action": "Nick_Talking"
+        }
+      ],
+      "animation_count": 1,
+      "animation_name": "Animation",
+      "channel_count": 219,
+      "sampler_count": 219,
+      "skin_count": 1,
+      "mesh_count": 1
+    },
+    {
+      "character": "Nick",
+      "clip": "Nick_Walking",
+      "source_fbx": "/home/navodhya/zootopia_birthday/mixamo_animations/Nick/Nick_Walking_Skin.fbx",
+      "output_glb": "/home/navodhya/zootopia_birthday/babylon_game/public/assets/animations/nick/Nick_Walking.glb",
+      "status": "ok",
+      "size_mb": 0.519,
+      "active_action_owners": [
+        {
+          "owner": "NICK_RIG.002",
+          "owner_type": "ARMATURE",
+          "action": "Nick_Walking"
+        }
+      ],
+      "animation_count": 1,
+      "animation_name": "Animation",
+      "channel_count": 219,
+      "sampler_count": 219,
+      "skin_count": 1,
+      "mesh_count": 1
+    },
+    {
+      "character": "Judy",
+      "clip": "Judy_Idle",
+      "source_fbx": "/home/navodhya/zootopia_birthday/mixamo_animations/Judy/Judy_Idle_Skin.fbx",
+      "output_glb": "/home/navodhya/zootopia_birthday/babylon_game/public/assets/animations/judy/Judy_Idle.glb",
+      "status": "ok",
+      "size_mb": 1.231,
+      "active_action_owners": [
+        {
+          "owner": "Armature",
+          "owner_type": "ARMATURE",
+          "action": "Judy_Idle"
+        }
+      ],
+      "animation_count": 1,
+      "animation_name": "Animation",
+      "channel_count": 123,
+      "sampler_count": 123,
+      "skin_count": 1,
+      "mesh_count": 1
+    },
+    {
+      "character": "Judy",
+      "clip": "Judy_Kiss",
+      "source_fbx": "/home/navodhya/zootopia_birthday/mixamo_animations/Judy/Judy_Kiss_Skin.fbx",
+      "output_glb": "/home/navodhya/zootopia_birthday/babylon_game/public/assets/animations/judy/Judy_Kiss.glb",
+      "status": "ok",
+      "size_mb": 1.22,
+      "active_action_owners": [
+        {
+          "owner": "Armature",
+          "owner_type": "ARMATURE",
+          "action": "Judy_Kiss"
+        }
+      ],
+      "animation_count": 1,
+      "animation_name": "Animation",
+      "channel_count": 123,
+      "sampler_count": 123,
+      "skin_count": 1,
+      "mesh_count": 1
+    },
+    {
+      "character": "Judy",
+      "clip": "Judy_Questioning",
+      "source_fbx": "/home/navodhya/zootopia_birthday/mixamo_animations/Judy/Judy_Questioning_Skin.fbx",
+      "output_glb": "/home/navodhya/zootopia_birthday/babylon_game/public/assets/animations/judy/Judy_Questioning.glb",
+      "status": "ok",
+      "size_mb": 1.241,
+      "active_action_owners": [
+        {
+          "owner": "Armature",
+          "owner_type": "ARMATURE",
+          "action": "Judy_Questioning"
+        }
+      ],
+      "animation_count": 1,
+      "animation_name": "Animation",
+      "channel_count": 123,
+      "sampler_count": 123,
+      "skin_count": 1,
+      "mesh_count": 1
+    },
+    {
+      "character": "Judy",
+      "clip": "Judy_Run",
+      "source_fbx": "/home/navodhya/zootopia_birthday/mixamo_animations/Judy/Judy_Run_Skin.fbx",
+      "output_glb": "/home/navodhya/zootopia_birthday/babylon_game/public/assets/animations/judy/Judy_Run.glb",
+      "status": "ok",
+      "size_mb": 1.172,
+      "active_action_owners": [
+        {
+          "owner": "Armature",
+          "owner_type": "ARMATURE",
+          "action": "Judy_Run"
+        }
+      ],
+      "animation_count": 1,
+      "animation_name": "Animation",
+      "channel_count": 123,
+      "sampler_count": 123,
+      "skin_count": 1,
+      "mesh_count": 1
+    },
+    {
+      "character": "Judy",
+      "clip": "Judy_Talking",
+      "source_fbx": "/home/navodhya/zootopia_birthday/mixamo_animations/Judy/Judy_Talking_Skin.fbx",
+      "output_glb": "/home/navodhya/zootopia_birthday/babylon_game/public/assets/animations/judy/Judy_Talking.glb",
+      "status": "ok",
+      "size_mb": 1.256,
+      "active_action_owners": [
+        {
+          "owner": "Armature",
+          "owner_type": "ARMATURE",
+          "action": "Judy_Talking"
+        }
+      ],
+      "animation_count": 1,
+      "animation_name": "Animation",
+      "channel_count": 123,
+      "sampler_count": 123,
+      "skin_count": 1,
+      "mesh_count": 1
+    },
+    {
+      "character": "Judy",
+      "clip": "Judy_Walking",
+      "source_fbx": "/home/navodhya/zootopia_birthday/mixamo_animations/Judy/Judy_Walking_Skin.fbx",
+      "output_glb": "/home/navodhya/zootopia_birthday/babylon_game/public/assets/animations/judy/Judy_Walking.glb",
+      "status": "ok",
+      "size_mb": 1.176,
+      "active_action_owners": [
+        {
+          "owner": "Armature",
+          "owner_type": "ARMATURE",
+          "action": "Judy_Walking"
+        }
+      ],
+      "animation_count": 1,
+      "animation_name": "Animation",
+      "channel_count": 123,
+      "sampler_count": 123,
+      "skin_count": 1,
+      "mesh_count": 1
+    }
+  ]
+}

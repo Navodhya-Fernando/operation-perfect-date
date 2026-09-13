@@ -1,0 +1,121 @@
+{
+  "name": "Operation: Perfect Date",
+  "version": "FULL_GAME_V1",
+  "sequence": [
+    "NIC / NIBM",
+    "Simply Strawberries by Jagro",
+    "Vito Wood Fired Pizza",
+    "Scope Cinemas at CCC",
+    "Birthday finale"
+  ],
+  "controls": {
+    "start": "Start Operation",
+    "advance": [
+      "tap",
+      "click",
+      "Space",
+      "Enter"
+    ],
+    "pause_resume": [
+      "Pause button",
+      "Esc"
+    ],
+    "restart": "Restart Game",
+    "debug_editor": "?editor=1; F2 toggles editor"
+  },
+  "locked_staging": {
+    "NIC": {
+      "Nick": [
+        -2.17,
+        0,
+        4.836
+      ],
+      "Judy": [
+        -1.177,
+        0,
+        4.847
+      ],
+      "camera": [
+        1.5708,
+        1.4689,
+        4.423,
+        [
+          -1.6432,
+          1.05,
+          4.6491
+        ],
+        0.72
+      ]
+    },
+    "Jagro": {
+      "Nick": [
+        -0.2692,
+        -0.0359,
+        -20.0479
+      ],
+      "Judy": [
+        0.4562,
+        0,
+        -19.8554
+      ],
+      "camera": [
+        1.5708,
+        1.455,
+        6.35,
+        [
+          0.0935,
+          1.12,
+          -19.9517
+        ],
+        0.72
+      ]
+    },
+    "Vito": {
+      "Nick": [
+        0.55,
+        0,
+        6.2699
+      ],
+      "Judy": [
+        -0.3416,
+        0,
+        6.3141
+      ],
+      "camera": [
+        1.562,
+        1.5086,
+        9.1572,
+        [
+          0,
+          1.05,
+          2.2
+        ],
+        0.72
+      ]
+    },
+    "CCC": {
+      "Nick": [
+        0.4997,
+        0,
+        5.6
+      ],
+      "Judy": [
+        -0.1811,
+        0,
+        5.6
+      ],
+      "camera": [
+        1.4231,
+        1.5006,
+        6.8801,
+        [
+          -0.594,
+          1.185,
+          3.62
+        ],
+        0.72
+      ]
+    }
+  },
+  "note": "Locked scene ZIPs remain the rollback checkpoints. This package is the integrated player build."
+}
